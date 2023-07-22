@@ -84,3 +84,10 @@ for all outputs should be OFF open **Consoles -> Console -> Enter command**
  ```
  PowerOnState 0
  ```
+
+
+if device not respond by WiFi **configure Dynamic Sleep** https://tasmota.github.io/docs/Dynamic-Sleep/#dynamic-sleep-cpu-main-loop-target-cpu-power-management to use normal sleep mode
+
+```
+SetOption60 1
+```
