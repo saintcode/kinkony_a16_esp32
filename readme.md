@@ -1,23 +1,23 @@
 Based on KC868-A16 rev1.6 hardware https://www.kincony.com/forum/forumdisplay.php?fid=25
 and Tasmota firmware https://tasmota.github.io/docs/
 
-!!! REMOVE all 433Mhz hardware from board before write firmware !!!
-User tasmota-en-a16.bin firmware, its compilled with PCF8574 support.
+**!!!** REMOVE all 433Mhz hardware from board before write firmware **!!!**
+
+Use `tasmota-en-a16.bin` firmware, its compilled with PCF8574 support.
 
 
 **Tasmota configuration**
 
 Open Tasmota web (example http://192.168.31.118, http://192.168.4.1)
 
-**Configuration -> Configure other -> Template**
-and check Activate
+Open **Configuration -> Configure other -> Template** and check Activate
 
 ```
 {"NAME":"KC868-A16 rev 1.6","GPIO":[32,1,1,1,640,608,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}
 ```
 
 
-**Configuration -> Configure PCF8574**
+Open **Configuration -> Configure PCF8574** and set as below
 
 ```
 Device 1 Port 0 - Input
@@ -55,7 +55,7 @@ Device 4 Port 7 - Output
 ```
 
 
-**Consoles -> Console -> Enter command**
+Open **Consoles -> Console -> Enter command** and paste
 
 ```
 rule1
