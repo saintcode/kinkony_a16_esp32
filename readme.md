@@ -1,4 +1,5 @@
 Based on KC868-A16 rev1.6 hardware https://www.kincony.com/forum/forumdisplay.php?fid=25
+
 and Tasmota firmware https://tasmota.github.io/docs/
 
 **!!!** REMOVE all 433Mhz hardware from board before write firmware **!!!**
