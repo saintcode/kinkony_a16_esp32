@@ -1,5 +1,12 @@
-Open Tasmota web (example http://192.168.31.118, http://192.168.4.1)
+Based on KC868-A16 rev1.6 hardware https://www.kincony.com/forum/forumdisplay.php?fid=25
+and Tasmota firmware https://tasmota.github.io/docs/
 
+!!! REMOVE all 433Mhz hardware from board before write firmware !!!
+
+
+**Tasmota configuration**
+
+Open Tasmota web (example http://192.168.31.118, http://192.168.4.1)
 
 **Configuration -> Configure other -> Template**
 and check Activate
