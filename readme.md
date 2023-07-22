@@ -1,13 +1,12 @@
 Open Tasmota web (example http://192.168.31.118, http://192.168.4.1)
 
+
 **Configuration -> Configure other -> Template**
-
-
-```
-{"NAME":"KC868-A16 rev 1.4","GPIO":[32,1,1,1,640,608,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}
-```
-
 and check Activate
+
+```
+{"NAME":"KC868-A16 rev 1.6","GPIO":[32,1,1,1,640,608,1,1,1,1,1,1,1,1,5600,1,0,1,1,5568,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,1],"FLAG":0,"BASE":1}
+```
 
 
 **Configuration -> Configure PCF8574**
@@ -46,6 +45,7 @@ Device 4 Port 5 - Output
 Device 4 Port 6 - Output
 Device 4 Port 7 - Output
 ```
+
 
 **Consoles -> Console -> Enter command**
 
