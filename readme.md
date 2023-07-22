@@ -77,3 +77,10 @@ on PCF8574-1_INP#D5=0 do power14 toggle endon
 on PCF8574-1_INP#D6=0 do power15 toggle endon
 on PCF8574-1_INP#D7=0 do power16 toggle endon
 ```
+
+**Configure PowerOnState** https://tasmota.github.io/docs/Commands/#poweronstate
+for all outputs should be OFF open **Consoles -> Console -> Enter command**
+
+ ```
+ PowerOnState 0
+ ```
