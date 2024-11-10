@@ -1,7 +1,9 @@
 **Links**
 
 Drivers and docs 
+
 USBtoSerial driver https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads
+
 https://www.kincony.com/document
 
 “KCS”v2 firmware https://www.kincony.com/esp32-kcsv2-firmware.html
