@@ -8,6 +8,11 @@ https://www.kincony.com/document
 
 “KCS”v2 firmware https://www.kincony.com/esp32-kcsv2-firmware.html
 
+https://www.kincony.com/forum/showthread.php?tid=7046
+
+login to KCS admin http://192.168.4.1/login.html
+
+
 
 Based on KC868-A16 rev1.6 hardware https://www.kincony.com/forum/forumdisplay.php?fid=25
 
